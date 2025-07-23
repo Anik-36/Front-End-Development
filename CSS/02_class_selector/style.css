@@ -1,0 +1,54 @@
+li{
+    font-weight: 700;
+}
+.html{
+    color: #DC4A25;
+}
+.css{
+    color: #2862E9;
+}
+.javascript{
+    color: #CEB530;
+}
+.react{
+    color: #8BD7E6;
+}
+.tailwind{
+    color: #34BCF9;
+}
+#html{
+    font-size: 32px;
+}
+#css{
+    font-size: 32px;
+}
+#js{
+    font-size: 32px;
+}
+#react{
+    font-size: 32px;
+}
+#tailwind{
+    font-size: 32px;
+}
+[class]{
+    background-color: green;
+}
+[anik]{
+    background-color: antiquewhite;
+}
+[anik="coder"]{
+    background-color: red;
+}
+ul p{
+    background-color: brown;
+}
+.web h5{
+    background-color: cornflowerblue;
+}
+h1:hover{
+    color: blue;
+}
+.my-intro:hover{
+    color: orange;
+}
