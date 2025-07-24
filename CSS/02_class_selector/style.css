@@ -31,24 +31,3 @@ li{
 #tailwind{
     font-size: 32px;
 }
-[class]{
-    background-color: green;
-}
-[anik]{
-    background-color: antiquewhite;
-}
-[anik="coder"]{
-    background-color: red;
-}
-ul p{
-    background-color: brown;
-}
-.web h5{
-    background-color: cornflowerblue;
-}
-h1:hover{
-    color: blue;
-}
-.my-intro:hover{
-    color: orange;
-}
