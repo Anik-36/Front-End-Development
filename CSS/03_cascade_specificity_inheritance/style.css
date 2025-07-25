@@ -1,54 +1,26 @@
-li{
-    font-weight: 700;
+li#html.html{
+    background-color: darkmagenta;
 }
-.html{
-    color: #DC4A25;
-}
-.css{
-    color: #2862E9;
-}
-.javascript{
-    color: #CEB530;
-}
-.react{
-    color: #8BD7E6;
-}
-.tailwind{
-    color: #34BCF9;
-}
+
 #html{
-    font-size: 32px;
+    background-color: crimson;
 }
-#css{
-    font-size: 32px;
+
+.html{
+    background-color: blue;
 }
-#js{
-    font-size: 32px;
-}
-#react{
-    font-size: 32px;
-}
-#tailwind{
-    font-size: 32px;
-}
-[class]{
+
+li{
     background-color: green;
+    color: aqua;
 }
-[anik]{
-    background-color: antiquewhite;
+li{
+    background-color: orange;
 }
-[anik="coder"]{
-    background-color: red;
-}
-ul p{
-    background-color: brown;
-}
-.web h5{
+li{
     background-color: cornflowerblue;
 }
-h1:hover{
-    color: blue;
-}
-.my-intro:hover{
-    color: orange;
+
+.html{
+    background-color: deeppink;
 }
