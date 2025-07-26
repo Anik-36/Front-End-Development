@@ -1,4 +1,12 @@
 #html{
+    background-color: darkviolet !important;
+}
+
+li{
+    background-color: darkblue !important;
+}
+
+#html{
     background-color: darkmagenta;
 }
 
