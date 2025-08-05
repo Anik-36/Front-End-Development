@@ -1,0 +1,29 @@
+body{
+  margin: 0;
+}
+p{
+  background-color: yellowgreen;
+  width: 300px;
+  height: 100px;
+  padding: 25px;
+  border: 10px solid green;
+  box-sizing: border-box;
+  margin: 25px;
+
+}
+.html{
+  background-color: green;
+  padding: 10px;
+  margin: 10px;
+  border: 10px solid blue;
+}
+.lorem{
+  background-color: aqua;
+  padding: 40px;
+  margin: 10px;
+
+}
+.css{
+  background-color: chocolate;
+  padding: 50px;
+}
