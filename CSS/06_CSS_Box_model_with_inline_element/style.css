@@ -1,7 +1,7 @@
-body{
+body {
   margin: 0;
 }
-p{
+p {
   background-color: yellowgreen;
   width: 300px;
   height: 100px;
@@ -9,21 +9,27 @@ p{
   border: 10px solid green;
   box-sizing: border-box;
   margin: 25px;
+}
 
-}
-.html{
-  background-color: green;
-  padding: 10px;
-  margin: 10px;
-  border: 10px solid blue;
-}
-.lorem{
+.html {
   background-color: aqua;
+  width: 30px;
+  height: 20px;
+  border: 20px solid brown;
+  display: inline-block;
   padding: 40px;
-  margin: 10px;
-
 }
-.css{
-  background-color: chocolate;
-  padding: 50px;
+img {
+  width: 300px;
+}
+iframe {
+  height: 200px;
+  width: 300px;
+}
+video{
+  width: 300px;
+}
+.site{
+  width: 1480px;
+  height: 500px;
 }
