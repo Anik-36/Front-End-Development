@@ -1,7 +1,16 @@
 body{
     margin:  0;
 }
+section{
+    background-color: chocolate;
+    width: 400px;
+    /* box-sizing: border-box; */
+    padding: 10%;
+
+}
 
 .box{
     background-color: chartreuse;
+    width: 50%;
+    padding: 10%;
 }
