@@ -1,20 +1,26 @@
+:root{
+    /*  :root == html ,, rem means all the 1rem = 1px */
+    font-size: 10px;
+}
+
 body{
     margin:  0;
 }
 section{
     background-color: chocolate;
-    width: 10vw;
+    width: 50vw;
+    margin: 10vw;
     /* box-sizing: border-box; */
-    padding: 10%;
+    padding: 1%;
     border: 10px solid  blue;
-    font-size: 2em;
+    font-size: 2rem;
 
 }
 
 .box{
     background-color: chartreuse;
-    font-size: 2em;
+    font-size: 2rem;
     width: 10em;
-    padding: 2em;
+    padding: 0.5em;
 
 }
