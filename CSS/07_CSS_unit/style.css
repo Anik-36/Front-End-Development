@@ -3,14 +3,18 @@ body{
 }
 section{
     background-color: chocolate;
-    width: 400px;
+    width: 10vw;
     /* box-sizing: border-box; */
     padding: 10%;
+    border: 10px solid  blue;
+    font-size: 2em;
 
 }
 
 .box{
     background-color: chartreuse;
-    width: 50%;
-    padding: 10%;
+    font-size: 2em;
+    width: 10em;
+    padding: 2em;
+
 }
