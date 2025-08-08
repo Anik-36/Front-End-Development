@@ -1,4 +1,9 @@
-div{
-    position: relative;
-    background-color: chartreuse;
+div {
+  position: relative;
+  background-color: chartreuse;
+  /* top: 50px;
+  right: 50px;
+  bottom: 50px;
+  left: 50px; */
+  inset: 50px;
 }
