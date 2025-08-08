@@ -2,13 +2,19 @@ main {
   position: relative;
   width: 600px;
   height: 400px;
-  background-color: darkgray;
+  /* background-color: darkgray; */
 }
 
 .box {
   width: 300px;
   height: 100px;
+  padding: 5px;
   background-color: green;
+  border-radius: 20px;
+  background-image: url("https://media.istockphoto.com/id/2201384385/photo/construction-worker-spraying-house-insulation.jpg?s=2048x2048&w=is&k=20&c=MOfZtDnvINtEiSszK-5J2dB31XL9HgoWIHwzHmBEJtg=");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 0px -60px;
   /* opacity: 0.5; */
   /* transform: scale(5);
     transform-origin: 100% 0%; */
@@ -18,4 +24,10 @@ main {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+  box-shadow: 0px 0px 20px 5px rgba(0, 0, 0, 0.315);
+  text-shadow: 4px 4px 4px #c4f896;
+  transition: transform 200ms;
+}
+.box:hover{
+    transform: translate(-50%, -50%) rotate(45deg) scale(1.4);
 }
