@@ -1,0 +1,13 @@
+body{
+    background-color: #D5E1EF;
+}
+
+.card{
+    height: 525px;
+    width: 337px;
+    background-color: white;
+    position: fixed;
+    margin: auto;
+    inset: 0px;
+    box-shadow: ;
+}
