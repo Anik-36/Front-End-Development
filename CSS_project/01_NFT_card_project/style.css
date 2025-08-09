@@ -4,7 +4,7 @@ body{
 }
 
 .box{
-    height: 575px;
+    height: 555px;
     width: 100%;
     max-width: 305px;
     background-color: #15263E;
@@ -29,9 +29,19 @@ p{
 }
 a{
     color: #FBFEFE;
+    text-decoration: none;
+}
+.eth{
+    color: #46E0E4;
+    margin-right: 169px;
+}
+.day{
+    color: #99AECC;
+
 }
 hr{
     border: 0.1px solid#839BB6;
+    margin-top: 20px;
 
 }
 img.avatar{
@@ -42,10 +52,11 @@ img.avatar{
     margin-right: 16px;
 }
 p{
-
     font-size: 16px;
 }
 span.create{
+    display: inline-block;
+    margin-top: -10px;
     color: #839BB6;
 }
 span.jul{
