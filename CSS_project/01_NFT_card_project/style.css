@@ -22,9 +22,9 @@ img{
 h2{
     color: #FBFEFE;
 }
-p{
+p.eq{
     color: #839BB6;
-    font-size: 18px;
+    font-size: 20px;
     line-height: 25px;
 }
 a{
