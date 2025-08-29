@@ -1,6 +1,11 @@
+.parent{
+    width: 800px;
+}
+
 .one{
     background-color: aquamarine;
-    max-width: 500px;
+    width: 50%;
+    /* word-break: break-all; */
 }
 .two{
     background-color: blueviolet;
