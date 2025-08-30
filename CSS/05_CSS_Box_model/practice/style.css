@@ -1,12 +1,35 @@
-.parent{
-    width: 800px;
+body{
+    padding: 0px;
+    margin: 0px;
 }
-
+*{
+    box-sizing: border-box;
+}
+h1{
+    margin: 0px;
+}
+p{
+    margin: 0px;
+}
 .one{
     background-color: aquamarine;
-    width: 50%;
+    width: 500px;
     /* word-break: break-all; */
+    margin: 25px;
+    padding: 50px;
+    border: 10px solid darkcyan;
 }
 .two{
     background-color: blueviolet;
+    height: 300px;
+    width: 300px;
+    margin: 25px;
+    border-radius: 50%;
+    border: 10px solid rgb(155, 126, 11); /* border can moves the element  but outline can't. it overflow on any element*/
+    outline: 40px solid red;
+    overflow: hidden;
+}
+
+.two img{
+    width: 100%;
 }
