@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Inline Box Model</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
     <h1>Hello World.</h1>
     <span class="html">HI</span>
 
@@ -15,9 +15,20 @@
     <span>hello</span>
     <span>CSS</span>
 
-    <!--image is a replaced inline element which supports all inline block elements attribute. replaced inline means which don't has any content but fetch from another.  span,a,b tags are non replaced inline element thats why they can't support top down value and also block attributes,height , width-->
-    <img src="image/icpc_leaderboard.jpg" alt="">
+    <!--image,video,audio,iframe is a replaced inline element which supports all inline block elements attribute. replaced inline means which don't has any content but fetch from another.  span,a,b tags are non replaced inline element thats why they can't support top down value and also block attributes,height , width-->
 
-    <span>JavaScript</span>
-</body>
+    <img src="image/icpc_leaderboard.jpg" alt="" />
+    <video src="video/WIN_20250805_20_53_22_Pro.mp4" controls></video>
+
+    <iframe
+      src="https://webanik.com/"
+      title="YouTube video player"
+      frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+      referrerpolicy="strict-origin-when-cross-origin"
+      allowfullscreen
+    ></iframe>
+
+    <div>JavaScript</div>
+  </body>
 </html>
