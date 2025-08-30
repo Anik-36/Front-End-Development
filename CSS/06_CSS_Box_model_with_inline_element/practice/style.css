@@ -1,0 +1,28 @@
+body{
+    margin: 0px;
+}
+
+p{
+    background-color: chartreuse;
+    width: 300px;
+    height: 100px;
+    padding: 25px;
+    margin: 20px;
+    /* box-sizing: border-box; */
+    border: 10px solid green;
+}
+
+.html{
+    background-color: hotpink;
+    width: 300px;
+    height: 100px;
+    /* padding: 25px; */
+}
+.dev{
+    background-color: bisque;
+    padding: 30px;
+}
+a{
+    background-color: cornflowerblue;
+    padding: 20px;
+}
