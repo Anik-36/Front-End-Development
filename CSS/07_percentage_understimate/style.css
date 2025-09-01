@@ -1,14 +1,19 @@
 body{
     margin: 0;
+    font-size: 2em;
 }
 section{
     background-color: blueviolet;
-    width: 400px;
+    width: 50vw;
+    font-size: 2em;
     padding: 10%;
 }
 .box{
     background-color: chartreuse;
-    width: 50%;
-    padding: 10%;
-    margin: 10%;
+    font-size: 2em; /* always follow its parent's font size and assumed as 1em */
+    width: 1em; /* without font-size , the rest of all like width,height,padding,margin etc always follow on its font size and assume as 1em */
+    padding: 0.5em;
+    margin: 0.5em;
 }
+
+/* font size em a dile se tar parent er font size k 1em dhore dey. but width height padding margin era nijer font size k 1em dhore dey */
