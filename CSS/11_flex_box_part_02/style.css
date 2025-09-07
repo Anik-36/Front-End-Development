@@ -1,5 +1,6 @@
 body{
     margin: 0;
+    height: 400px;
 }
 *{
     box-sizing: border-box;
@@ -9,47 +10,38 @@ p{
 }
 .parent{
     padding: 10px;
-    /* border: 4px solid indianred; */
-    /* background-color: indianred; */
-    height: 50vh;
+    height: 100%;
 
-    display: flex; /* full container a item gulare block kore inline kore dibe */
-    /* justify-content: center; */ /* dane bame center a nibe */
-    /* align-items: center; */ /* upore niche center a nibe */
+    display: flex;
+    justify-content: space-between ;
+    align-items: center;
+    flex-direction: column;
 
-
-
-    /* align-items: flex-end; */ /* item gulare niche pathay dibe . start a upore nibe*/
-    /* align-items: stretch; */ /* item gulare upor theke niche puratuk space nibe . */
-    /* justify-content: space-between; */ /* free space gulare item er majhe distribute kore dibe . evenly use korle charpashe soman vabe vag kore dibe */
-    /* flex-direction: row;  */ /* by default ja ase tai e thakbe */
-    /* flex-direction: row-reverse;  */ /*content daner ta bame pathaya dbo */
-    /* flex-direction: column; */ /* row er ulta . item gula sob block item hoye upore niche hoye jabe pashapashi theke. align justify ek oporer ta kaj korbe */
 
 }
 .parent span{
-    /* border: 4px solid cadetblue; */
     background-color: cadetblue;
-
-    /* width: 200px; */
-    /* height: 300px; */
-    /* flex-shrink: 0; */ /* item ja width nibe oitai fixed kore dibe . width komaleo er width kombe na */
-    /* flex-grow: 1; */ /* free space ja ase seta o dokhol korbe */
+    width: 100%;
+    flex-basis: 100%; /* jokhon flex direction column kora hobe tokhon flex basis height hisebe kaj korbe. r row thakle width hisebe kaj korbe. etai flex-basis r width er majhe parthokko */
 }
 
 .parent p{
     /* border: 4px solid darkkhaki; */
     background-color: darkkhaki;
     width: max-content; /* sob content a ek line a niye width calculate korbe */
-    width: 400px;
+    /* width: 400px; */
+    width: 100%;
     /* width: min-content; */
-    flex-shrink: 0;
+    flex-basis: 100%;
+
+
 }
 
 .parent a{
     /* border: 4px solid yellowgreen; */
     background-color: yellowgreen;
     /* width: 400px; */
-    flex-shrink: 0;
+    width: 100%;
+    flex-basis: 100%;
 
 }
