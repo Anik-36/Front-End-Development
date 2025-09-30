@@ -10,20 +10,22 @@ p{
 .parent{
     /* padding: 10px; */
     border: 4px solid khaki;
-    height: 50vh;
+    height: 400px;
 
-    display: flex;
+    display: inline-flex;
+    justify-content: center;
     /* justify-content: space-between ;
     align-items: center;
     flex-direction: column; */
     /* flex-wrap: wrap; */
-    /* gap: 16px; */
+    gap: 16px;
     /* onek browser gap support kore na . ejonno margin use korte hobe */
-    align-items: center;
+    /* align-items: center; */
     /* aling-item center just content gular height er center a niye ashe */
-    align-content: center;
+    /* align-content: center; */
     /* align-conter center sobgual content k center a niye ashe. multiple line a eta kaj kore */
     flex-wrap: wrap;
+    flex-direction: column;
 
 
 
@@ -86,7 +88,7 @@ p{
 
 .parent > *{
     /* parent class direct joto child ase sob eksthe select kore */
-    /* width: 200px; */
+    width: 300px;
 }
 
 /* .parent > * + *{
