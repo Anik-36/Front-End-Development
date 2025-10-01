@@ -1,0 +1,32 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+a{
+    color: inherit;
+}
+.card-container {
+    color: white;
+    padding: 1rem;
+}
+
+.card{
+    padding: 3rem;
+
+}
+.card h2{
+    text-transform: uppercase;
+    font-family: "Big Shoulders", sans-serif;
+}
+
+.orange-card{
+    background-color: #e38826ff;
+    border-radius: 8px 8px 0 0;
+}
+.cyan-card{
+    background-color: #006970ff;
+}
+.dark-cyan-card{
+    background-color: #004241ff;
+    border-radius: 0 0 8px 8px;
+}
