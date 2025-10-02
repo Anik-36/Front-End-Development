@@ -1,0 +1,25 @@
+body{
+    margin: 0;
+    font-family: "Salsa", cursive;
+}
+
+.hero-section{
+    height: 100vh;
+    background-image: url(images/orange-backdrop\ .png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.hero-section .jhalar{
+    width: 300px;
+    height: 300px;
+    margin-bottom: -150px;
+}
+
+.hero-section p{
+    font-size: 46px;
+    max-width: 587px;
+    margin-left: 300px;
+    font-weight: 800;
+
+}
