@@ -1,0 +1,16 @@
+.square{
+    width: 300px;
+    height: 300px;
+    background-color: black;
+    border: 25px solid blue;
+    print-color-adjust: exact;
+    /* for mozila fire fox */
+    -webkit-print-color-adjust: exact;
+    /* for chrome and all */
+}
+/* media has two types . print and screen */
+@media print{
+    .square{
+        background-color: brown;
+    }
+}
