@@ -47,6 +47,7 @@ audio::-webkit-media-controls-panel {
     gap: 12px;
     justify-content: center;
     padding: 1rem 0 2rem 0;
+    flex-shrink: 0;
 }
 .horizontal-line{
     height: 4px;
@@ -61,11 +62,45 @@ audio::-webkit-media-controls-panel {
 }
 .ganesh-lakshmi-section{
     background-color: #F99501;
+    padding-inline: 1.5rem;
+
 }
 .ganesh-lakshmi-img{
-    max-width: 850px;
+    max-width: 900px;
+    width: 100%;
     display: block;
     margin-inline: auto;
+}
+
+.ganesh-lakshmi-section h1{
+    font-size: 64px;
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 1rem;
+    font-family: "Style Script", cursive;
+}
+.white-card-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.white-card{
+    background-color: white;
+    width: 650px;
+    font-size: 40px;
+    padding: 1.5rem 3rem 5rem;
+    margin-right: -100px;
+    border-radius: 20px;
+    margin-top: 4rem;
+}
+
+.white-card p{
+    margin-right: 4rem;
+
+}
+
+.white-card-container img{
+    width: 350px;
 }
 
 @media ( max-width: 840px){
@@ -91,10 +126,34 @@ audio::-webkit-media-controls-panel {
         width: 300px;
         margin-left: auto;
     }
+    .horizontal-section .circle{
+        flex-shrink: 0;
+    }
 
+    .ganesh-lakshmi-section{
+        padding-inline: 1.5rem;
+    }
+
+    .ganesh-lakshmi-img{
+        width: 100%;
+    }
+
+    .ganesh-lakshmi-section h1{
+        font-size: 40px;
+    }
+
+    .white-card{
+        font-size: 32px;
+    }
+    .white-card p{
+        margin-right: 1.75rem;
+    }
+    .white-card-container img{
+        width: 250px;
+    }
 }
 
-@media (max-width: 550px){
+@media (max-width: 625px){
     .hero-section p{
         max-width: 390px;
         text-align: start;
@@ -104,6 +163,7 @@ audio::-webkit-media-controls-panel {
 
     .audio-container{
         max-width: 350px ;
+        width: 100%to;
     }
     .deepak{
         width: 300px;
@@ -117,4 +177,23 @@ audio::-webkit-media-controls-panel {
         display: none;
     }
 
+    .ganesh-lakshmi-section{
+        padding-inline: 1.5rem;
+    }
+
+    .ganesh-lakshmi-section h1{
+        font-size: 32px;
+    }
+
+    .white-card{
+        font-size: 20px;
+    }
+    .white-card p{
+        margin-right: 2rem;
+    }
+    .white-card-container img{
+        max-width: 220px;
+        width: 100%;
+        margin-top: 60px;
+    }
 }
