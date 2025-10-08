@@ -83,6 +83,7 @@ audio::-webkit-media-controls-panel {
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-bottom: 2rem;
 }
 .white-card{
     background-color: white;
@@ -101,6 +102,39 @@ audio::-webkit-media-controls-panel {
 
 .white-card-container img{
     width: 350px;
+}
+
+.lakshmi-ganesha-container{
+    display: flex;
+    background-color: white;
+    border-radius: 20px;
+    padding: 2rem;
+    max-width: 836px;
+    margin-inline: auto;
+    margin-top: 15px;
+
+    /* width: 100%; */
+
+}
+.lakshmi-ganesha-container img{
+    width: 50%;
+}
+
+.thank-you-text{
+    max-width: 900px;
+    margin-inline: auto;
+    padding-block: 1rem;
+    text-transform: capitalize;
+}
+.thank-you-text h2{
+    font-size: 48px;
+}
+
+.my-name-text{
+    text-align: right;
+    padding-bottom: 1rem;
+    margin-bottom: 0;
+    text-transform: capitalize;
 }
 
 @media ( max-width: 840px){
@@ -151,6 +185,10 @@ audio::-webkit-media-controls-panel {
     .white-card-container img{
         width: 250px;
     }
+
+    .thank-you-text h2{
+        font-size: 32px;
+    }
 }
 
 @media (max-width: 625px){
@@ -195,5 +233,9 @@ audio::-webkit-media-controls-panel {
         max-width: 220px;
         width: 100%;
         margin-top: 60px;
+    }
+
+    .thank-you-text h2{
+        font-size: 24px;
     }
 }
