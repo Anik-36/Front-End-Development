@@ -7,6 +7,8 @@ body{
     background-image: url(images/orange-backdrop\ .png);
     background-repeat: no-repeat;
     background-size: cover;
+    background-color: #F99501;
+
 }
 
 .hero-section .jhalar{
@@ -126,8 +128,16 @@ audio::-webkit-media-controls-panel {
     padding-block: 1rem;
     text-transform: capitalize;
 }
+.thank-you-text p{
+    font-size: 24px;
+    margin-bottom: 0px;
+}
 .thank-you-text h2{
-    font-size: 48px;
+    font-size: 64px;
+    font-weight: 400;
+    margin-bottom: 1rem;
+    margin-top: 2.25rem;
+    font-family: "Style Script", cursive;
 }
 
 .my-name-text{
@@ -136,6 +146,8 @@ audio::-webkit-media-controls-panel {
     margin-bottom: 0;
     text-transform: capitalize;
 }
+
+
 
 @media ( max-width: 840px){
     .hero-section .jhalar{
@@ -186,6 +198,9 @@ audio::-webkit-media-controls-panel {
         width: 250px;
     }
 
+    .thank-you-text p{
+        font-size: 1rem;
+    }
     .thank-you-text h2{
         font-size: 32px;
     }
