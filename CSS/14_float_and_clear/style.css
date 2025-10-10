@@ -1,0 +1,22 @@
+body{
+    /* padding: 0; */
+    margin: 0;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+.floating-container{
+    background-color: cadetblue;
+}
+
+.floating-container img{
+    max-width: 400px;
+    float: left;
+    display: flow-root;
+
+}
+p{
+    clear: left;
+}
