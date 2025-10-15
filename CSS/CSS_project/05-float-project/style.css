@@ -1,0 +1,24 @@
+body{
+    margin: 0;
+
+}
+*{
+    box-sizing: border-box;
+}
+.flex-container{
+    display: flex;
+}
+
+.floating-container + .floating-container{
+    margin-left: 1.5rem;
+}
+
+.floating-container .name{
+    font-weight: bold;
+    font-size: 1.15rem;
+}
+.floating-container img{
+    float: left;
+    max-width: 150px;
+    margin-right: 1rem;
+}
