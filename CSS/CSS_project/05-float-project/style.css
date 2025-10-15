@@ -10,7 +10,7 @@ body{
 }
 
 .floating-container + .floating-container{
-    margin-left: 1.5rem;
+    margin-left: 3rem;
 }
 
 .floating-container .name{
