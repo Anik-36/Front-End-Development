@@ -1,0 +1,53 @@
+.container{
+    background-color: lightblue;
+    display: grid;
+    grid-template-columns: repeat(4,100px);
+    /* column-gap: 1rem; */
+
+}
+
+.box{
+    color: white;
+    font-size: 4rem;
+    padding: 1rem;
+}
+.box-1{
+    background-color: brown;
+    grid-column-start: 4;
+    /* grid-row-start: 1; */
+    /* grid-column-end: 5;
+    grid-row-end: 4; */
+}
+.box-2{
+    background-color: darkslategray;
+}
+.box-3{
+    background-color: aqua;
+}
+.box-4{
+    background-color: deeppink;
+}
+.box-5{
+    background-color: blue;
+}
+.box-6{
+    background-color: blueviolet;
+}
+.box-7{
+    background-color: crimson;
+}
+.box-8{
+    background-color: cyan;
+}
+.box-9{
+    background-color: darkorange;
+}
+.box-10{
+    background-color: cornflowerblue;
+}
+.box-11{
+    background-color: dodgerblue;
+}
+.box-12{
+    background-color: forestgreen;
+}
