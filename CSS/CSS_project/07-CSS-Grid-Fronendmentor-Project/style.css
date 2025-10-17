@@ -79,11 +79,40 @@ body{
 
 @media(min-width: 650px){
     .grid-container{
+        grid-template-columns: repeat(2,1fr);
+    }
+
+    .grid-container .box-daniel{
+        grid-column-start: span 2;
+        background-image: url(images/bg-pattern-quotation.svg);
+        background-repeat: no-repeat;
+        background-position: 90% top;
+        background-size: 25%;
+    }
+
+    .grid-container .box-kira{
+        grid-column-start: 2;
+        grid-row-start: 2;
+        grid-row-end: 4;
+    }
+
+    .grid-container .box-patrick{
+        grid-column-start: span 2;
+    }
+}
+
+
+
+@media(min-width: 1200px){
+    .grid-container{
         grid-template-columns: repeat(4,1fr);
     }
 
     .grid-container .box-daniel{
         grid-column-start: span 2;
+        background-position: 87% top;
+        background-size: 25%;
+
     }
     .grid-container .box-kira{
         grid-column-start: 4;
