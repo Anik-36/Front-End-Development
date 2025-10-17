@@ -1,0 +1,97 @@
+body{
+    margin: 0;
+    font-family: "Barlow", sans-serif;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+.box{
+    border-radius: 8px;
+    box-shadow: 0 11px 104px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: 2rem;
+}
+.grid-container{
+    margin-inline: 2rem;
+    margin-block: 4rem;
+    display: grid;
+    gap: 2rem;
+}
+
+.grid-container .box-daniel{
+    background-color: #7541c8ff;
+    color: white;
+}
+.flex-container{
+    display: flex;
+    align-items: center;
+}
+.flex-container img{
+    margin-right: 25px;
+    border-radius: 50%;
+    outline: 2px solid #cfcfcfff;
+}
+
+
+.flex-container h4{
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: .5rem;
+    margin-top: 1rem;
+}
+.flex-container p{
+    margin-top: 4px;
+}
+
+.grid-container .box h2{
+    font-weight: 600;
+    font-size: 1.55rem;
+}
+
+.box-daniel > p,
+    p{
+    font-size: 16;
+    color: #e7eaeeff;
+    line-height: 1.5rem;
+}
+
+.grid-container .box-jonathan{
+    background-color: #48556aff;
+    color: white;
+    padding: 2rem;
+}
+
+.grid-container .box-jeanette,
+.box-jeanette p,
+.box-kira,
+.box-kira p{
+    background-color: #ffffff;
+    color: #48556aff;
+}
+
+.grid-container .box-patrick{
+    background-color: #19212eff;
+    color: white;
+}
+
+
+
+@media(min-width: 650px){
+    .grid-container{
+        grid-template-columns: repeat(4,1fr);
+    }
+
+    .grid-container .box-daniel{
+        grid-column-start: span 2;
+    }
+    .grid-container .box-kira{
+        grid-column-start: 4;
+        grid-row-start: 1;
+        grid-row-end: 4;
+    }
+    .grid-container .box-patrick{
+        grid-column-start: 2;
+        grid-column-end: 4;
+    }
+}
