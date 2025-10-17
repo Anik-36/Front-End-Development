@@ -117,7 +117,7 @@ body{
     .grid-container .box-kira{
         grid-column-start: 4;
         grid-row-start: 1;
-        grid-row-end: 4;
+        grid-row-end: 3;
     }
     .grid-container .box-patrick{
         grid-column-start: 2;
