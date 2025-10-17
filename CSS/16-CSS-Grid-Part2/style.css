@@ -1,17 +1,21 @@
 .container{
     background-color: lightblue;
     display: grid;
-    grid-template-columns: repeat(4,100px);
+    grid-template-columns: repeat(4,200px);
+    min-height: 60vh;
+    align-items: center;
+    justify-items: center;
+    /* grid eo amra flex er properties er use korte parbo */
 
-    grid-auto-flow: column;
+    /* grid-auto-flow: column; */
 
     /* grid-auto-flow: row dense; */
     /* dense use korle kono column skip kore na, just exchange hoy. */
 
-    grid-auto-columns: 100px;
+    /* grid-auto-columns: 100px; */
     /* next joto column create hobe sob gular width auto 100px hiesebe create hobe */
 
-    grid-auto-rows: 100px;
+    /* grid-auto-rows: 100px; */
     /* by default row er height er content er height ba container er height er upor nirvor kore. eta use korle row er height 100px fixed hoye jabe */
 }
 
@@ -22,7 +26,7 @@
 }
 .box-1{
     background-color: brown;
-    grid-column-start: 4;
+    /* grid-column-start: 4; */
 }
 .box-2{
     background-color: darkslategray;
@@ -38,6 +42,11 @@
 }
 .box-6{
     background-color: blueviolet;
+    align-self: stretch;
+    justify-self: stretch;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .box-7{
     background-color: crimson;
