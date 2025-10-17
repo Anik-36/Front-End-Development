@@ -102,6 +102,19 @@ body{
 }
 
 
+@media(min-width: 800px){
+    .grid-container .box-daniel{
+        background-size: 20%;
+    }
+}
+
+
+@media(min-width: 970px){
+    .grid-container .box-daniel{
+        background-size: 15%;
+    }
+}
+
 
 @media(min-width: 1200px){
     .grid-container{
