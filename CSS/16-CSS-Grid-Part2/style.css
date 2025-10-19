@@ -1,13 +1,29 @@
 .container{
     background-color: lightblue;
     display: grid;
-    grid-template-columns: repeat(4,200px);
+    /* grid-template-columns: repeat(4,100px); */
+
+    /* grid-template-columns: repeat( auto-fill , 100px); */
+    /* full width k 100px kore vag kore column create korbe */
+
+    grid-template-columns: repeat(auto-fill , minmax(120px, 1fr));
+    /* full width er minimum 120px dibe sobaike, then jayga thakle full width ke vag kore sobaike barabe totokkhon porjnto jototkhon abr 120px toiri na hoy, hoilei new column banaya sobaire komaya dibe */
+
+    /* grid-template: repeat(4,100px) / repeat(5,100px); */
+    /* shortcut. ager ta row er value porerta column */
+
+    /* grid-template-columns: repeat(5, minmax(80px , 140px)); */
+    /* 5 ta column create korbe jar minimum width 80 , max 140px hobe */
+
+
     min-height: 60vh;
-    align-items: center;
-    justify-items: center;
+
+    /* align-items: center;
+    justify-items: center; */
     /* grid eo amra flex er properties er use korte parbo */
 
     /* grid-auto-flow: column; */
+    /* grid gula sob column a vag hobe jar width kono fixed na. */
 
     /* grid-auto-flow: row dense; */
     /* dense use korle kono column skip kore na, just exchange hoy. */
@@ -26,7 +42,11 @@
 }
 .box-1{
     background-color: brown;
-    /* grid-column-start: 4; */
+
+    /* grid-column-start: 3;
+    grid-column-end: 5; */
+    /* grid-column: 3 /5; */
+    /* shortcut */
 }
 .box-2{
     background-color: darkslategray;
@@ -42,11 +62,13 @@
 }
 .box-6{
     background-color: blueviolet;
-    align-self: stretch;
+
+    /* align-self: stretch;
     justify-self: stretch;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: center; */
+
 }
 .box-7{
     background-color: crimson;
