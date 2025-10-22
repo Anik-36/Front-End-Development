@@ -2,6 +2,10 @@
     background-color: lightblue;
     display: grid;
     min-height: 60vh;
+    grid-template-areas:
+        'Bangalor Bangalor Delhi'
+        'Bangalor Bangalor Delhi'
+    ;
 }
 
 .box{
