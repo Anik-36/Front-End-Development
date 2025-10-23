@@ -84,7 +84,7 @@ p{
     transition: 0.3s;
 }
 .card:hover{
-    transform: scale(1.06);
+    transform: scale(1.03);
 }
 
 .card p{
