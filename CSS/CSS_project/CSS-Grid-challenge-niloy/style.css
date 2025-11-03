@@ -1,0 +1,48 @@
+body {
+  padding: 0;
+  background-color: gray;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.main {
+  min-height: 100vh;
+  max-width: 1200px;
+  display: grid;
+  margin-inline: auto;
+  gap: 8px;
+  grid-template-areas:
+    ". . . blue8by12 blue8by12 . . . . ."
+    ". . . blue8by12 blue8by12 red12by8 red12by8 red12by8 . ."
+    ". green8by8 green8by8 blue8by12 blue8by12 red12by8 red12by8 red12by8 . ."
+    ". green8by8 green8by8 pink18by12 pink18by12 pink18by12 pink18by12 red12by8 red12by8 red12by8"
+    "red12by8 red12by8 red12by8 pink18by12 pink18by12 pink18by12 pink18by12 red12by8 red12by8 red12by8"
+    "red12by8 red12by8 red12by8 pink18by12 pink18by12 pink18by12 pink18by12 green8by8 green8by8 ."
+    ". . red12by8 red12by8 red12by8 blue8by12 blue8by12 green8by8 green8by8 ."
+    ". . red12by8 red12by8 red12by8 blue8by12 blue8by12 . . ."
+    ". . . . . blue8by12 blue8by12 . . .";
+}
+
+.box {
+  background-color: white;
+  font-size: 30px;
+}
+
+.blue8by12 {
+  background-color: blueviolet;
+  grid-area: blue8by12;
+}
+.red12by8 {
+  background-color: red;
+  grid-area: red12by8;
+}
+.green8by8 {
+  background-color: green;
+  grid-area: green8by8;
+}
+.pink18by12 {
+  background-color: pink;
+  grid-area: pink18by12;
+}
