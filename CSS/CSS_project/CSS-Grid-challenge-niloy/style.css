@@ -1,48 +1,72 @@
 body {
   padding: 0;
-  background-color: gray;
+  background-color: #bcbdbd;
 }
 
 * {
   box-sizing: border-box;
 }
 
-.main {
-  min-height: 100vh;
-  max-width: 1200px;
+.grid-container {
+  margin-block: 2rem;
+  min-height: 90vh;
+  max-width: 1100px;
   display: grid;
   margin-inline: auto;
-  gap: 8px;
+  gap: 22px;
   grid-template-areas:
-    ". . . blue8by12 blue8by12 . . . . ."
-    ". . . blue8by12 blue8by12 red12by8 red12by8 red12by8 . ."
-    ". green8by8 green8by8 blue8by12 blue8by12 red12by8 red12by8 red12by8 . ."
-    ". green8by8 green8by8 pink18by12 pink18by12 pink18by12 pink18by12 red12by8 red12by8 red12by8"
-    "red12by8 red12by8 red12by8 pink18by12 pink18by12 pink18by12 pink18by12 red12by8 red12by8 red12by8"
-    "red12by8 red12by8 red12by8 pink18by12 pink18by12 pink18by12 pink18by12 green8by8 green8by8 ."
-    ". . red12by8 red12by8 red12by8 blue8by12 blue8by12 green8by8 green8by8 ."
-    ". . red12by8 red12by8 red12by8 blue8by12 blue8by12 . . ."
-    ". . . . . blue8by12 blue8by12 . . .";
+    ". . . blue8by12_1 blue8by12_1 . . . . ."
+    ". . . blue8by12_1 blue8by12_1 red12by8_1 red12by8_1 red12by8_1 . ."
+    ". green8by8_1 green8by8_1 blue8by12_1 blue8by12_1 red12by8_1 red12by8_1 red12by8_1 . ."
+    ". green8by8_1 green8by8_1 pink18by12 pink18by12 pink18by12 pink18by12 red12by8_3 red12by8_3 red12by8_3"
+    "red12by8_2 red12by8_2 red12by8_2 pink18by12 pink18by12 pink18by12 pink18by12 red12by8_3 red12by8_3 red12by8_3"
+    "red12by8_2 red12by8_2 red12by8_2 pink18by12 pink18by12 pink18by12 pink18by12 green8by8_2 green8by8_2 ."
+    ". . red12by8_4 red12by8_4 red12by8_4 blue8by12_2 blue8by12_2 green8by8_2 green8by8_2 ."
+    ". . red12by8_4 red12by8_4 red12by8_4 blue8by12_2 blue8by12_2 . . ."
+    ". . . . . blue8by12_2 blue8by12_2 . . .";
 }
 
 .box {
   background-color: white;
   font-size: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-.blue8by12 {
-  background-color: blueviolet;
-  grid-area: blue8by12;
+.blue8by12_1 {
+  /* background-color: blueviolet; */
+  grid-area: blue8by12_1;
 }
-.red12by8 {
-  background-color: red;
-  grid-area: red12by8;
+.blue8by12_2 {
+  /* background-color: blueviolet; */
+  grid-area: blue8by12_2;
 }
-.green8by8 {
-  background-color: green;
-  grid-area: green8by8;
+.red12by8_1 {
+  /* background-color: red; */
+  grid-area: red12by8_1;
+}
+.red12by8_2 {
+  /* background-color: red; */
+  grid-area: red12by8_2;
+}
+.red12by8_3 {
+  /* background-color: red; */
+  grid-area: red12by8_3;
+}
+.red12by8_4 {
+  /* background-color: red; */
+  grid-area: red12by8_4;
+}
+.green8by8_1 {
+  /* background-color: green; */
+  grid-area: green8by8_1;
+}
+.green8by8_2 {
+  /* background-color: green; */
+  grid-area: green8by8_2;
 }
 .pink18by12 {
-  background-color: pink;
+  /* background-color: pink; */
   grid-area: pink18by12;
 }
