@@ -17,23 +17,31 @@ h3 {
   font-weight: 500;
   line-height: 26px;
 }
-.main-container {
-  /* background-color: #dacffcff; */
-}
 
-.flex-container {
+.grid-container {
   margin: 30px 20px;
+  display: grid;
+  gap: 2rem;
+  grid-template-areas:
+    "social"
+    "manage"
+    "maintain"
+    "schedule"
+    "grow"
+    "faster"
+    "create"
+    "write";
 }
 
 .card {
   padding: 1rem;
   border-radius: 0.75rem;
-  margin-bottom: 2rem;
 }
 
 .five-star {
   background-color: #7650dcff;
   text-align: center;
+  grid-area: social;
 }
 .five-star h2 {
   font-family: "DM Sans", sans-serif;
@@ -61,6 +69,7 @@ h3 {
 
 .multiple-platform {
   box-shadow: 0px 6px 30px #e5e5e5;
+  grid-area: manage;
 }
 .multiple-platform img {
   max-width: 380px;
@@ -73,14 +82,12 @@ h3 {
 
 .consistent-schedule {
   background-color: #ffcb6bff;
+  grid-area: maintain;
+  padding-bottom: 0;
 }
 .consistent-schedule h4 {
   margin: 0 0 15px;
   line-height: 1.5rem;
-}
-.consistent-schedule {
-  padding-bottom: 0;
-  /* position: relative; */
 }
 .consistent-schedule img {
   max-width: 200px;
@@ -91,6 +98,7 @@ h3 {
 .schedule-post {
   background-color: #dad0f3;
   text-align: center;
+  grid-area: schedule;
 }
 .schedule-post h4 {
   margin-top: 10px;
@@ -104,6 +112,7 @@ h3 {
 }
 
 .grow-follower {
+  grid-area: grow;
   text-align: center;
   background-color: #7650dcff;
   /* padding-inline: 60px; */
@@ -124,6 +133,7 @@ h3 {
 }
 
 .audience-growth {
+  grid-area: faster;
   box-shadow: 0px 6px 30px #e5e5e5;
 }
 .audience-growth h3 {
@@ -136,6 +146,7 @@ h3 {
   margin-top: 10px;
 }
 .create-post {
+  grid-area: create;
   background-color: #fff3e5;
 }
 .create-post h3 {
@@ -151,6 +162,7 @@ h3 {
 }
 
 .ai-content {
+  grid-area: write;
   background-color: #ffcb6bff;
 }
 .ai-content h3 {
@@ -160,4 +172,29 @@ h3 {
 .ai-content img {
   max-width: 230px;
   margin: 25px 0 0px;
+}
+
+@media (min-width: 600px) {
+  .main-container {
+    max-width: 1200px;
+    margin-inline: auto;
+  }
+  .grid-container {
+    /* margin: 30px 20px;
+  display: grid;
+  gap: 2rem; */
+    grid-template-areas:
+      "create social social schedule"
+      "create social social schedule"
+      "create manage maintain schedule"
+      "write manage maintain schedule"
+      "write faster grow grow";
+    /* "manage"
+      "maintain"
+      "schedule"
+      "grow"
+      "faster"
+      "create"
+      "write"; */
+  }
 }
