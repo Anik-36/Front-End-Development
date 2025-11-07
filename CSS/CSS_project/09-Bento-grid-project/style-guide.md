@@ -14,7 +14,7 @@ The designs were created to the following widths:
 - Purple 100: #dacffcff
 - Purple 500: #7650dcff
 
-- Yellow 100: hsl(31, 66%, 93%)
+- Yellow 100: #f9eee1ff
 - Yellow 500: #ffcb6bff
 
 - White: #ffffffff
