@@ -77,3 +77,15 @@ h4 {
   position: relative;
   bottom: -5px;
 }
+
+.schedule-post {
+  background-color: #dad0f3;
+  text-align: center;
+}
+.schedule-post img {
+  width: 100%;
+}
+.schedule-post p {
+  margin-inline: 25px;
+  font-size: 17px;
+}
