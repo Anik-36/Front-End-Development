@@ -176,6 +176,9 @@ h3 {
 }
 
 @media (min-width: 750px) {
+  .card {
+    /* padding: 10px; */
+  }
   .grid-container {
     grid-template-areas:
       "create create  write"
