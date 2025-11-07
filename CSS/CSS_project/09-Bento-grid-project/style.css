@@ -105,6 +105,7 @@ h3 {
 }
 .schedule-post img {
   width: 100%;
+  max-width: 300px;
 }
 .schedule-post p {
   margin-inline: 25px;
@@ -175,6 +176,31 @@ h3 {
 }
 
 @media (min-width: 750px) {
+  .grid-container {
+    grid-template-areas:
+      "create create  write"
+      " social social schedule"
+      " social social schedule"
+      " manage maintain schedule"
+      " manage maintain schedule"
+      " faster grow grow";
+  }
+  .five-star .block {
+    display: block;
+  }
+
+  .grow-follower {
+    flex-direction: row;
+    align-items: center;
+  }
+  .create-post {
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    justify-content: center;
+  }
+}
+@media (min-width: 1050px) {
   h4 {
     line-height: 25px;
     font-size: 22px;
@@ -192,6 +218,7 @@ h3 {
   .card {
     /* padding: 1.75rem 2.75rem 1.75rem 1.75rem; */
   }
+
   .grid-container {
     /* margin: 30px 20px;
   display: grid;
@@ -211,6 +238,9 @@ h3 {
       "write"; */
   }
 
+  .five-star .block {
+    display: block;
+  }
   .grow-follower {
     flex-direction: row;
     align-items: center;
