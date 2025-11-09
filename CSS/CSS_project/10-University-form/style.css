@@ -32,3 +32,8 @@ table {
 tr {
   background-color: white;
 }
+
+td {
+  padding: 3rem;
+  text-align: left;
+}
